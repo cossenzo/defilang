@@ -1,0 +1,61 @@
+object_id,object,role,D1 Harm mechanism,D2 Loss timing,D3 Discourse register,D4 Discourse channel,D5 Top-level DeFi risk category
+O1,Collateral,building,Forced loss of pledged or leveraged assets,Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Financial risk
+O2,Volume,building,"Manipulated execution, prices or data",Not time-bound term or safeguard,Technical description,Technical documentation,No top-level risk category
+O3,MEV,building,"Manipulated execution, prices or data",Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Blockchain infrastructure risk
+O4,Treasury,building,Governance or treasury control loss,Gradual or structural exposure,Technical description,Technical documentation,Operational risk
+O5,Impermanent loss,building,Value loss from market movement or fees,Gradual or structural exposure,Technical description,Technical documentation,Financial risk
+O6,Liquidation,building,Forced loss of pledged or leveraged assets,Sudden event-triggered loss,Warning or accusation of risk,Forum or social media discourse,Financial risk
+O7,pig butchering,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Slang or colloquial term,Forum or social media discourse,Operational risk
+O8,TVL,building,Descriptive term or safeguard without harm mechanism,Not time-bound term or safeguard,Technical description,Technical documentation,No top-level risk category
+O9,Validator,building,"Locked, staked or penalized funds",Gradual or structural exposure,Warning or accusation of risk,Forum or social media discourse,Blockchain infrastructure risk
+O10,Vote Escrow,building,"Locked, staked or penalized funds",Gradual or structural exposure,Warning or accusation of risk,Forum or social media discourse,misfit
+O11,Voting Power,building,Governance or treasury control loss,Gradual or structural exposure,Technical description,Technical documentation,misfit
+O12,FOMO,building,Value loss from market movement or fees,Gradual or structural exposure,Slang or colloquial term,Forum or social media discourse,Operational risk
+O13,Exploit,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Technical description,Technical documentation,Smart contract risk
+O14,Front-running,building,"Manipulated execution, prices or data",Sudden event-triggered loss,Technical description,Technical documentation,Blockchain infrastructure risk
+O15,veNFT,building,Descriptive term or safeguard without harm mechanism,Gradual or structural exposure,Technical description,Technical documentation,no information
+O16,Yield Farming,building,Value loss from market movement or fees,Gradual or structural exposure,Technical description,Technical documentation,Financial risk
+O17,Sandwich attacks,building,"Manipulated execution, prices or data",Sudden event-triggered loss,Technical description,Technical documentation,Financial risk
+O18,Honeypot,building,"Theft, fraud or misleading claims",Gradual or structural exposure,Slang or colloquial term,Technical documentation,Smart contract risk
+O19,Rug Pull,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Slang or colloquial term,Technical documentation,Social and people risk
+O20,Phishing,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Technical description,Technical documentation,Operational risk
+O21,Slashing,building,"Locked, staked or penalized funds",Sudden event-triggered loss,Warning or accusation of risk,Forum or social media discourse,Blockchain infrastructure risk
+O22,Timelock,building,Descriptive term or safeguard without harm mechanism,Not time-bound term or safeguard,Technical description,Technical documentation,No top-level risk category
+O23,Trustless,building,"Theft, fraud or misleading claims",Not time-bound term or safeguard,Warning or accusation of risk,Technical documentation,No top-level risk category
+O24,Trading Fees,building,Value loss from market movement or fees,Gradual or structural exposure,Technical description,Technical documentation,No top-level risk category
+O25,Vesting,building,Value loss from market movement or fees,Gradual or structural exposure,Technical description,Technical documentation,Financial risk
+O26,Whitelist,building,Descriptive term or safeguard without harm mechanism,Not time-bound term or safeguard,Technical description,Technical documentation,No top-level risk category
+O27,White Hat,building,Descriptive term or safeguard without harm mechanism,Not time-bound term or safeguard,Technical description,Technical documentation,No top-level risk category
+O28,wrench attacks,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Operational risk
+O29,Depeg,building,Value loss from market movement or fees,Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Financial risk
+O30,Exit Scam,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Social and people risk
+O31,Flash Loan Attack,building,"Manipulated execution, prices or data",Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Smart contract risk
+O32,Governance Attack,building,Governance or treasury control loss,Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Operational risk
+O33,Liquidation Cascade,building,Forced loss of pledged or leveraged assets,Sudden event-triggered loss,Technical description,Technical documentation,Financial risk
+O34,Oracle Attack,building,"Manipulated execution, prices or data",Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Smart contract risk
+O35,Tokenized Treasury,building,Descriptive term or safeguard without harm mechanism,Not time-bound term or safeguard,Technical description,Technical documentation,no information
+O36,Utility Token,building,Descriptive term or safeguard without harm mechanism,Not time-bound term or safeguard,Technical description,Technical documentation,no information
+O37,Wrapped Token,building,Descriptive term or safeguard without harm mechanism,Not time-bound term or safeguard,Technical description,Technical documentation,No top-level risk category
+O38,HODL,building,Value loss from market movement or fees,Gradual or structural exposure,Slang or colloquial term,Forum or social media discourse,Financial risk
+O39,Rug pulls,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Social and people risk
+O40,RaaS,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Technical description,Technical documentation,Operational risk
+O41,rug,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Warning or accusation of risk,Forum or social media discourse,Smart contract risk
+O42,Wen,building,Descriptive term or safeguard without harm mechanism,Not time-bound term or safeguard,Slang or colloquial term,Forum or social media discourse,no information
+O43,Mint,building,Governance or treasury control loss,Gradual or structural exposure,Warning or accusation of risk,Forum or social media discourse,Smart contract risk
+O44,oracle deviation,building,"Manipulated execution, prices or data",Gradual or structural exposure,Warning or accusation of risk,Technical documentation,Smart contract risk
+O45,Degen,building,Value loss from market movement or fees,Gradual or structural exposure,Slang or colloquial term,Forum or social media discourse,Financial risk
+O46,Hidden Mint Function,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Technical description,Technical documentation,Smart contract risk
+O47,Leaking Token,building,"Theft, fraud or misleading claims",Sudden event-triggered loss,Technical description,Technical documentation,Smart contract risk
+O48,Limiting Sell Order,building,"Locked, staked or penalized funds",Gradual or structural exposure,Warning or accusation of risk,Technical documentation,Smart contract risk
+O49,Rekt,building,Forced loss of pledged or leveraged assets,Sudden event-triggered loss,Slang or colloquial term,Forum or social media discourse,Financial risk
+O50,FUD,building,"Theft, fraud or misleading claims",Not time-bound term or safeguard,Slang or colloquial term,Forum or social media discourse,misfit
+O51,double-counting,evaluation,"Manipulated execution, prices or data",Not time-bound term or safeguard,Technical description,Technical documentation,Financial risk
+O52,Bagholder,evaluation,Value loss from market movement or fees,Gradual or structural exposure,Slang or colloquial term,Technical documentation,Financial risk
+O53,PLF,evaluation,Forced loss of pledged or leveraged assets,Gradual or structural exposure,Technical description,Technical documentation,Financial risk
+O54,CDP,evaluation,Forced loss of pledged or leveraged assets,Sudden event-triggered loss,Technical description,Technical documentation,Financial risk
+O55,Buy the dip,evaluation,Value loss from market movement or fees,Sudden event-triggered loss,Slang or colloquial term,Forum or social media discourse,Financial risk
+O56,Gas,evaluation,Value loss from market movement or fees,Gradual or structural exposure,Technical description,Technical documentation,Blockchain infrastructure risk
+O57,Ape,evaluation,Value loss from market movement or fees,Sudden event-triggered loss,Slang or colloquial term,Forum or social media discourse,Financial risk
+O58,DAI Depeg,evaluation,Value loss from market movement or fees,Sudden event-triggered loss,Warning or accusation of risk,Technical documentation,Financial risk
+O59,Pump-and-dump,evaluation,"Theft, fraud or misleading claims",Sudden event-triggered loss,Warning or accusation of risk,Forum or social media discourse,Financial risk
+O60,Dapps,evaluation,Descriptive term or safeguard without harm mechanism,Not time-bound term or safeguard,Slang or colloquial term,Forum or social media discourse,Smart contract risk

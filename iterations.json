@@ -1,0 +1,746 @@
+[
+  {
+    "number": 1,
+    "kind": "e",
+    "reason": "R1: identification-and-structuring, descriptive purpose (TDR 7, 8)",
+    "queries": [
+      "DeFi community slang terminology risks"
+    ],
+    "documents": [
+      "449a39a950f03c6c9a46c2928d6b7c530e5a53dd",
+      "ff2dcb294ab1bc27ace2709ff168cb9182ade623",
+      "1fb6e8d8fd731ef19fcd7359e0a9e6c8fa350459",
+      "web:1958ec540073f26b",
+      "web:3141509d2ac05e2f",
+      "web:1dfcf332fcd823c9"
+    ],
+    "new_objects": [
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O8",
+      "O9",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O20",
+      "O21",
+      "O22",
+      "O23",
+      "O24",
+      "O25",
+      "O26",
+      "O27",
+      "O28",
+      "O29",
+      "O30",
+      "O31",
+      "O32",
+      "O33",
+      "O34",
+      "O35",
+      "O36",
+      "O37",
+      "O38",
+      "O39",
+      "O40"
+    ],
+    "codes": 117,
+    "concepts": 0,
+    "attempts": [
+      [
+        "R5 characteristic D1.C6 'No consumer risk described' expresses missing information, which is recorded as no_information; a negation characteristic names a stated absence (e.g. 'No governance: immutable contracts')",
+        "R5 characteristic D2.C6 'No consumer position described' expresses missing information, which is recorded as no_information; a negation characteristic names a stated absence (e.g. 'No governance: immutable contracts')"
+      ],
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D1",
+          "D1.C1",
+          "D1.C2",
+          "D1.C3",
+          "D1.C4",
+          "D1.C5",
+          "D1.C6",
+          "D1.C7"
+        ],
+        "removed": [],
+        "evidence": [
+          "O1",
+          "O2",
+          "O3",
+          "O4",
+          "O5",
+          "O6",
+          "O7",
+          "O8",
+          "O9",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18",
+          "O19",
+          "O20",
+          "O21",
+          "O22",
+          "O23",
+          "O24",
+          "O25",
+          "O26",
+          "O27",
+          "O28",
+          "O29",
+          "O30",
+          "O31",
+          "O32",
+          "O33",
+          "O34",
+          "O35",
+          "O36",
+          "O37",
+          "O38",
+          "O39",
+          "O40"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D2",
+          "D2.C1",
+          "D2.C2",
+          "D2.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "O1",
+          "O2",
+          "O3",
+          "O4",
+          "O5",
+          "O6",
+          "O7",
+          "O8",
+          "O9",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18",
+          "O19",
+          "O20",
+          "O21",
+          "O22",
+          "O23",
+          "O24",
+          "O25",
+          "O26",
+          "O27",
+          "O28",
+          "O29",
+          "O30",
+          "O31",
+          "O32",
+          "O33",
+          "O34",
+          "O35",
+          "O36",
+          "O37",
+          "O38",
+          "O39",
+          "O40"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D3",
+          "D3.C1",
+          "D3.C2",
+          "D3.C3"
+        ],
+        "removed": [],
+        "evidence": [
+          "O7",
+          "O9",
+          "O10",
+          "O12",
+          "O16",
+          "O17",
+          "O18",
+          "O19",
+          "O23",
+          "O28",
+          "O30",
+          "O38",
+          "O39",
+          "O1",
+          "O2",
+          "O3",
+          "O4",
+          "O5",
+          "O6",
+          "O8",
+          "O11",
+          "O13",
+          "O14",
+          "O15",
+          "O20",
+          "O21",
+          "O22",
+          "O24",
+          "O25",
+          "O26",
+          "O27",
+          "O29",
+          "O31",
+          "O32",
+          "O33",
+          "O34",
+          "O35",
+          "O36",
+          "O37",
+          "O40"
+        ],
+        "reason": ""
+      },
+      {
+        "iteration": 1,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D4",
+          "D4.C1",
+          "D4.C2"
+        ],
+        "removed": [],
+        "evidence": [
+          "O7",
+          "O9",
+          "O10",
+          "O19",
+          "O38",
+          "O1",
+          "O2",
+          "O3",
+          "O4",
+          "O5",
+          "O6",
+          "O8",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18",
+          "O20",
+          "O21",
+          "O22",
+          "O23",
+          "O24",
+          "O25",
+          "O26",
+          "O27",
+          "O28",
+          "O29",
+          "O30",
+          "O31",
+          "O32",
+          "O33",
+          "O34",
+          "O35",
+          "O36",
+          "O37",
+          "O39",
+          "O40"
+        ],
+        "reason": ""
+      }
+    ],
+    "cells_classified": 160,
+    "meta_review": "kept (The taxonomy's four dimensions (harm mechanism, loss timing, discourse register, discourse channel) cover the consumer-risk and community-discourse angles the purpose requires. The meta-characteristic's framing of jargon as sociolinguistic signals linked to technical concepts and risk categories, traceable to consumer protection, still matches these dimensions, including the descriptive and safeguard terms that the purpose's link to technical concepts requires.)",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "40 objects, 4 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 0 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {},
+    "evaluation": {},
+    "exit": "12",
+    "entry": "4",
+    "entry_reason": "R4: review of the meta-characteristic after the first iteration (TDR 5)",
+    "tokens": 352789
+  },
+  {
+    "number": 2,
+    "kind": "c",
+    "reason": "R2: at least one iteration of each approach (TDR 9)",
+    "queries": [
+      "DeFi jargon taxonomy consumer risk"
+    ],
+    "documents": [
+      "c3f921fa16502460ed4767adc5920d0d14aa7c7d",
+      "3ec273e1addcb1db2409d74d1d32d9c9d0691113",
+      "c9cab6b20a7e34960ded4b17beb96b96b2963bab",
+      "web:7227fae55dc26b6a",
+      "web:d7145018763ef103",
+      "web:3cbf4db1f48bb143"
+    ],
+    "new_objects": [],
+    "codes": 0,
+    "concepts": 51,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 2,
+        "op": "add_dimension",
+        "targets": [],
+        "created": [
+          "D5",
+          "D5.C1",
+          "D5.C2",
+          "D5.C3",
+          "D5.C4",
+          "D5.C5",
+          "D5.C6",
+          "D5.C7"
+        ],
+        "removed": [],
+        "evidence": [
+          "K1",
+          "K2",
+          "K3",
+          "K4",
+          "K5",
+          "K6",
+          "K7"
+        ],
+        "reason": "The meta-characteristic requires linking DeFi jargon to risk categories, and the taxonomy has no risk category dimension; the proposed top-level DeFi risk categories are integrated as a consumer risk dimension."
+      }
+    ],
+    "cells_classified": 40,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "40 objects, 5 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D5.C6 'Societal risk'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 3 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": true,
+        "justification": "The taxonomy has five dimensions, each serving the stated purpose of relating sociolinguistic patterns to technical concepts and risk categories, and none is redundant. Characteristic counts per dimension are moderate."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "Each dimension has mutually exclusive characteristics with explicit application rules and precedence, so objects can be assigned consistently. The zero-object societal risk characteristic reflects the evidence, not a differentiation failure."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "Both perspectives are represented, and the dimensions needed for the purpose (harm mechanism, loss timing, discourse register, discourse channel, risk category) are present. Objects without information on the risk category reflect the documents, not a gap in the taxonomy."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Dimensions and characteristics are defined at a level where new characteristics (such as additional risk sources or harm mechanisms) can be added without restructuring the perspectives or dimensions."
+      },
+      "explanatory": {
+        "passed": false,
+        "justification": "The definition of D5.C5 (Social and people risk) only states that the source does not define it further, so it does not explain the nature of the characteristic with respect to the purpose, even though its application rule names team or people-related weaknesses."
+      }
+    },
+    "evaluation": {},
+    "exit": "14",
+    "entry": "10",
+    "entry_reason": "chosen by the LLM: The unmet 'explanatory' condition has not recurred after a prior revision; the history shows no earlier unmet conditions. It can likely be resolved by revising definitions and descriptions of the existing dimensions and characteristics using the objects already classified, without new evidence.",
+    "tokens": 318328
+  },
+  {
+    "number": 3,
+    "kind": "r",
+    "reason": "chosen by the LLM: The unmet 'explanatory' condition has not recurred after a prior revision; the history shows no earlier unmet conditions. It can likely be resolved by revising definitions and descriptions of the existing dimensions and characteristics using the objects already classified, without new evidence.",
+    "queries": [
+      "DeFi rekt degen slang"
+    ],
+    "documents": [
+      "ad997628758b27bd09fa18d8f798cbe1c8466bc4",
+      "b1b1a9ace8b0a0d5d3ecbfe6a9b78ec7b504e8f4",
+      "224767693712ce5cd629dc66a46e5e3bd4d8bb3a",
+      "web:1e8d6ad66bc90b46",
+      "web:8fc2b16ce86c075b",
+      "web:849c296d914e5850"
+    ],
+    "new_objects": [],
+    "codes": 0,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 3,
+        "op": "rename",
+        "targets": [
+          "D5.C5"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "I2.1"
+        ],
+        "reason": "Resolves I2.1 by rewriting the definition of D5.C5 to name team or people-related weaknesses, as the application rule of D5 states, instead of noting that the source does not define it further. Name and other fields are unchanged."
+      }
+    ],
+    "cells_classified": 56,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "40 objects, 5 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D5.C6 'Societal risk'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 2 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": true,
+        "justification": "The taxonomy has five dimensions that each relate sociolinguistic patterns, technical concepts or risk categories to the stated purpose, and none is redundant. Characteristic counts per dimension are moderate."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "Each dimension has mutually exclusive characteristics with explicit application rules and precedence, so objects can be assigned consistently. The zero-object societal risk characteristic reflects the evidence and is not a differentiation failure."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "Both perspectives are represented, and the dimensions needed for the purpose (harm mechanism, loss timing, discourse register, discourse channel, risk category) are present. Objects without information on risk category reflect the documents, not a gap in the taxonomy."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Dimensions and characteristics are defined at a level where new risk sources or harm mechanisms can be added without restructuring the perspectives or dimensions."
+      },
+      "explanatory": {
+        "passed": true,
+        "justification": "The rewritten definition of D5.C5 now names team or people-related weaknesses, which explains its nature with respect to the purpose, and the other definitions state the nature of their characteristics clearly."
+      }
+    },
+    "evaluation": {
+      "new_objects": 10,
+      "all_objects": 50,
+      "kappa_per_dimension": {
+        "D1": 0.7333,
+        "D2": 0.375,
+        "D3": 0.697,
+        "D4": 0.6154,
+        "D5": 0.3846
+      },
+      "kappa": 0.5611,
+      "misfit_share": 0.1,
+      "informed_share": 0.96,
+      "distinct_profiles": 0.58,
+      "discriminating_dimensions": 1.0,
+      "cluster_silhouette": 0.3869,
+      "new_object_ids": [
+        "O41",
+        "O42",
+        "O43",
+        "O44",
+        "O45",
+        "O46",
+        "O47",
+        "O48",
+        "O49",
+        "O50"
+      ],
+      "results": [
+        {
+          "goal": "describing",
+          "measure": "informed_share",
+          "value": 0.96,
+          "target": 0.5,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "6"
+        },
+        {
+          "goal": "describing",
+          "measure": "misfit_share",
+          "value": 0.1,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": true,
+          "remedy": "6"
+        },
+        {
+          "goal": "classifying",
+          "measure": "kappa",
+          "value": 0.5611,
+          "target": 0.61,
+          "comparator": ">=",
+          "met": false,
+          "remedy": "10"
+        },
+        {
+          "goal": "classifying",
+          "measure": "misfit_share",
+          "value": 0.1,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": true,
+          "remedy": "6"
+        }
+      ]
+    },
+    "exit": "17",
+    "entry": "10",
+    "entry_reason": "chosen by the LLM: The only unmet condition is classifying kappa = 0.5611 (target >= 0.61), which can be addressed by revising definitions, names, or merging/splitting characteristics using the objects already classified. The history shows no earlier unmet conditions and no recurrence after a revision, so new evidence from step 6 is not needed.",
+    "tokens": 354852
+  },
+  {
+    "number": 4,
+    "kind": "r",
+    "reason": "chosen by the LLM: The only unmet condition is classifying kappa = 0.5611 (target >= 0.61), which can be addressed by revising definitions, names, or merging/splitting characteristics using the objects already classified. The history shows no earlier unmet conditions and no recurrence after a revision, so new evidence from step 6 is not needed.",
+    "queries": [
+      "DeFi bagholder ponzi slang"
+    ],
+    "documents": [
+      "2be9bd2de3213248bd32c73c8f2e53ea76758100",
+      "d824bb45c8d51c4da01c699ca5dad9387dcc00ac",
+      "827c8fcd1d0e377461c4bc54670a3064e0d03fd7",
+      "web:1598bd106727c044",
+      "web:bec51517274a913c",
+      "web:dc1fe81392817ed0"
+    ],
+    "new_objects": [],
+    "codes": 0,
+    "concepts": 0,
+    "attempts": [
+      []
+    ],
+    "rejected": false,
+    "operations": [
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D3"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "I3.1"
+        ],
+        "reason": "Kappa of 0.5611 (I3.1) shows that coders disagreed on the register. The definitions of slang and warning overlap, so the application rule now sets an explicit order and cues for each characteristic. The definitions of the characteristics are kept, so the dimension and its characteristics stay the same."
+      },
+      {
+        "iteration": 4,
+        "op": "rename",
+        "targets": [
+          "D4"
+        ],
+        "created": [],
+        "removed": [],
+        "evidence": [
+          "I3.1"
+        ],
+        "reason": "Kappa of 0.5611 (I3.1) indicates disagreement on the channel. The previous rule used 'otherwise' without a clear test for forum discourse, so the rule now names an explicit test for the forum characteristic and a default for technical documentation."
+      }
+    ],
+    "cells_classified": 50,
+    "meta_review": "",
+    "objective": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "objective_details": {
+      "O1": "50 objects, 5 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D5.C6 'Societal risk'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 3 misfits",
+      "O10": "structure rules hold"
+    },
+    "subjective": {
+      "concise": {
+        "passed": true,
+        "justification": "The taxonomy has five dimensions, each tied to the stated purpose of linking sociolinguistic patterns to technical concepts, risk categories and consumer protection, and none is redundant."
+      },
+      "robust": {
+        "passed": true,
+        "justification": "Each dimension has mutually exclusive characteristics with explicit application rules and precedence, so objects can be assigned consistently. The zero-object societal risk characteristic reflects the evidence and is not a differentiation failure."
+      },
+      "comprehensive": {
+        "passed": true,
+        "justification": "Both perspectives are represented, and the dimensions needed for the purpose (harm mechanism, loss timing, discourse register, discourse channel, risk category) are present. Objects without information on risk category reflect the documents rather than a gap in the taxonomy."
+      },
+      "extendible": {
+        "passed": true,
+        "justification": "Dimensions and characteristics are defined at a level where new harm mechanisms or risk sources can be added without restructuring the perspectives or dimensions."
+      },
+      "explanatory": {
+        "passed": true,
+        "justification": "The definitions state the nature of each characteristic with respect to consumer risk and community discourse, and the rewritten definition of D5.C5 names team or people-related weaknesses clearly."
+      }
+    },
+    "evaluation": {
+      "new_objects": 10,
+      "all_objects": 60,
+      "kappa_per_dimension": {
+        "D1": 0.8529,
+        "D2": 0.8438,
+        "D3": 1.0,
+        "D4": 0.5833,
+        "D5": 0.7619
+      },
+      "kappa": 0.8084,
+      "misfit_share": 0.0,
+      "informed_share": 1.0,
+      "distinct_profiles": 0.55,
+      "discriminating_dimensions": 1.0,
+      "cluster_silhouette": 0.3497,
+      "new_object_ids": [
+        "O51",
+        "O52",
+        "O53",
+        "O54",
+        "O55",
+        "O56",
+        "O57",
+        "O58",
+        "O59",
+        "O60"
+      ],
+      "results": [
+        {
+          "goal": "describing",
+          "measure": "informed_share",
+          "value": 1.0,
+          "target": 0.5,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "6"
+        },
+        {
+          "goal": "describing",
+          "measure": "misfit_share",
+          "value": 0.0,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": true,
+          "remedy": "6"
+        },
+        {
+          "goal": "classifying",
+          "measure": "kappa",
+          "value": 0.8084,
+          "target": 0.61,
+          "comparator": ">=",
+          "met": true,
+          "remedy": "10"
+        },
+        {
+          "goal": "classifying",
+          "measure": "misfit_share",
+          "value": 0.0,
+          "target": 0.3,
+          "comparator": "<=",
+          "met": true,
+          "remedy": "6"
+        }
+      ]
+    },
+    "exit": null,
+    "entry": null,
+    "entry_reason": "",
+    "tokens": 236602
+  }
+]

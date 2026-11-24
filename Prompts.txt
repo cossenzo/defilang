@@ -1,0 +1,10 @@
+Considere:
+- Taxonomia DeFiLang: arquivo "taxonomy.json" anexado.
+- Objetos O19 ("Rug Pull"), O29 ("Depeg") e O5 ("Impermanent loss") classificados na taxonomia DeFiLang (arquivo "objects.json" anexado).
+- Pretensos usuários da DeFiLang: consumidor, investidor, provedor de serviços, regulador.
+- Frases exemplificativas:
+  - Frase 1: “O $SDOG é legítimo ou é rug pull?”
+  - Frase 2: “Algum dos detentores de UST conseguiu reclamar o seguro contra depeg?”
+  - Frase 3: “Como posso me proteger de impermanent loss? (Uniswap v3)”
+
+Para cada frase exemplificativa, elabore subsídios à tomada de decisão de cada pretenso usuário com base na classificação dos respectivos objetos mencionados na DeFiLang. Os subsídios devem ser justificados. Responda em português; não use linguagem técnica especializada; não abrevie termos ou expressões; seja sucinto.

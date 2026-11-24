@@ -1,0 +1,114 @@
+2026-10-31 20:01:29,607 INFO etdp: --- step 1-3 ---
+2026-10-31 20:01:29,607 INFO etdp.steps: phenomenon: Decentralized finance (DeFi); users: Consumers; investors; Service providers; Regulators; purpose: Represent sociolinguistic patterns and relate them to technical concepts and risk categories; Semantically mediate the transition from public discourse on DeFi to informational consumer protection (traceability); Provide insights to improve consumer protection and strategic decision-making (identification_and_structuring, descriptive); perspectives: ['Consumer risk', 'Community discourse']
+2026-10-31 20:01:29,607 INFO etdp: --- step 4 ---
+2026-10-31 20:01:30,930 INFO etdp.steps: meta-characteristic: The taxonomy views DeFi jargon and slang as sociolinguistic signals of community discourse about consumer risks and harms, linking them to technical concepts and risk categories so that they can be traced to informational consumer protection.
+2026-10-31 20:01:30,934 INFO etdp: --- step 5 ---
+2026-10-31 20:01:30,934 INFO etdp: --- step 6 ---
+2026-10-31 20:01:30,934 INFO etdp.steps: === iteration 1 (e): R1: identification-and-structuring, descriptive purpose (TDR 7, 8) ===
+2026-10-31 20:01:30,934 INFO etdp: --- step 7e ---
+2026-10-31 20:01:33,978 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:01:38,832 INFO etdp.sources.semantic_scholar: Semantic Scholar: 2 results for 'DeFi community slang terminology risks' (year=(2014, 2026), open_access_only=True)
+2026-10-31 20:01:52,935 INFO etdp.sources.semantic_scholar: Semantic Scholar: 17 results for 'DeFi community slang terminology' (year=(2014, 2026), open_access_only=True)
+2026-10-31 20:02:00,086 INFO etdp.documents: scholarly: 3 full texts for 'DeFi community slang terminology risks'
+2026-10-31 20:02:01,975 INFO etdp.documents: web: 3 pages for 'DeFi community slang terminology risks'
+2026-10-31 20:04:39,834 INFO etdp.documents: llm: 8 descriptions for 40 objects
+2026-10-31 20:04:40,201 INFO etdp.documents: 41 candidate objects; 40 new objects registered
+2026-10-31 20:04:40,201 INFO etdp: --- step 8e ---
+2026-10-31 20:05:31,851 INFO etdp.classify: classified 0 cells; 117 codes
+2026-10-31 20:05:31,867 INFO etdp: --- step 9e ---
+2026-10-31 20:06:21,856 INFO etdp.steps: proposal 1 of 3: 4 operation(s): add_dimension Risk mechanism; add_dimension Consumer exposure; add_dimension Discourse function; add_dimension Term form
+2026-10-31 20:06:21,856 INFO etdp.steps: proposal violates 2 rule(s) (attempt 1 of 3)
+2026-10-31 20:06:21,856 INFO etdp.steps:   R5: the resulting taxonomy must keep its invariants: every dimension in one perspective of the input, at least the minimum number of characteristics per dimension, at most one negation characteristic per dimension, unique and present names, and no characteristic that expresses missing information
+2026-10-31 20:06:21,856 INFO etdp.steps:   - R5 characteristic D1.C6 'No consumer risk described' expresses missing information, which is recorded as no_information; a negation characteristic names a stated absence (e.g. 'No governance: immutable contracts')
+2026-10-31 20:06:21,856 INFO etdp.steps:   - R5 characteristic D2.C6 'No consumer position described' expresses missing information, which is recorded as no_information; a negation characteristic names a stated absence (e.g. 'No governance: immutable contracts')
+2026-10-31 20:06:21,856 INFO etdp.steps:   correction: the violations are returned to the LLM, which must answer with a corrected list of operations
+2026-10-31 20:07:14,266 INFO etdp.steps: proposal 2 of 3: 4 operation(s): add_dimension Harm mechanism; add_dimension Loss timing; add_dimension Discourse register; add_dimension Discourse channel
+2026-10-31 20:07:14,266 INFO etdp.steps: proposal accepted after 1 correction(s)
+2026-10-31 20:07:14,266 INFO etdp: --- step 10 ---
+2026-10-31 20:08:22,702 INFO etdp.classify: classified 160 cells; 0 codes
+2026-10-31 20:08:22,702 INFO etdp.steps: taxonomy: 4 dimensions; 4 operations applied
+2026-10-31 20:08:22,702 INFO etdp.steps:   add_dimension D1, D1.C1, D1.C2, D1.C3, D1.C4, D1.C5, D1.C6, D1.C7: 
+2026-10-31 20:08:22,702 INFO etdp.steps:   add_dimension D2, D2.C1, D2.C2, D2.C3: 
+2026-10-31 20:08:22,702 INFO etdp.steps:   add_dimension D3, D3.C1, D3.C2, D3.C3: 
+2026-10-31 20:08:22,702 INFO etdp.steps:   add_dimension D4, D4.C1, D4.C2: 
+2026-10-31 20:08:22,702 INFO etdp: --- step 11-12 ---
+2026-10-31 20:08:22,718 INFO etdp.steps: objective conditions unmet: none
+2026-10-31 20:08:22,718 INFO etdp.steps: objective conditions hold, but required: review of the meta-characteristic (R4); an iteration of each approach (R2): only ['e'] so far
+2026-10-31 20:08:22,718 INFO etdp.steps: exit after Step 12; re-entry before Step 4 (R4: review of the meta-characteristic after the first iteration (TDR 5))
+2026-10-31 20:08:22,726 INFO etdp: --- step 4 ---
+2026-10-31 20:08:26,051 INFO etdp.steps: meta-characteristic review: kept (The taxonomy's four dimensions (harm mechanism, loss timing, discourse register, discourse channel) cover the consumer-risk and community-discourse angles the purpose requires. The meta-characteristic's framing of jargon as sociolinguistic signals linked to technical concepts and risk categories, traceable to consumer protection, still matches these dimensions, including the descriptive and safeguard terms that the purpose's link to technical concepts requires.)
+2026-10-31 20:08:26,055 INFO etdp: --- step 6 ---
+2026-10-31 20:08:26,055 INFO etdp.steps: === iteration 2 (c): R2: at least one iteration of each approach (TDR 9) ===
+2026-10-31 20:08:26,055 INFO etdp: --- step 7c ---
+2026-10-31 20:08:28,730 INFO etdp.sources.semantic_scholar: Semantic Scholar: 2 results for 'DeFi jargon taxonomy consumer risk' (year=(2014, 2026), open_access_only=True)
+2026-10-31 20:08:38,324 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:08:42,929 INFO etdp.sources.semantic_scholar: Semantic Scholar: 2 results for 'DeFi jargon taxonomy consumer' (year=(2014, 2026), open_access_only=True)
+2026-10-31 20:08:43,662 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:08:49,152 INFO etdp.sources.semantic_scholar: Semantic Scholar: 50 results for 'DeFi jargon' (year=(2014, 2026), open_access_only=True)
+2026-10-31 20:09:00,311 INFO etdp.documents: scholarly: 3 full texts for 'DeFi jargon taxonomy consumer risk'
+2026-10-31 20:09:03,039 INFO etdp.documents: web: 3 pages for 'DeFi jargon taxonomy consumer risk'
+2026-10-31 20:11:10,709 INFO etdp.steps: proposal 1 of 3: 1 operation(s): add_dimension Top-level DeFi risk category
+2026-10-31 20:11:10,713 INFO etdp: --- step 8c ---
+2026-10-31 20:11:54,252 INFO etdp.classify: classified 40 cells; 0 codes
+2026-10-31 20:11:54,260 INFO etdp: --- step 10 ---
+2026-10-31 20:11:54,260 INFO etdp.classify: classified 0 cells; 0 codes
+2026-10-31 20:11:54,260 INFO etdp.steps: taxonomy: 5 dimensions; 1 operations applied
+2026-10-31 20:11:54,268 INFO etdp.steps:   add_dimension D5, D5.C1, D5.C2, D5.C3, D5.C4, D5.C5, D5.C6, D5.C7: The meta-characteristic requires linking DeFi jargon to risk categories, and the taxonomy has no risk category dimension; the proposed top-level DeFi risk categories are integrated as a consumer risk 
+2026-10-31 20:11:54,268 INFO etdp: --- step 11-12 ---
+2026-10-31 20:11:54,268 INFO etdp.steps: objective conditions unmet: none
+2026-10-31 20:11:54,268 INFO etdp: --- step 13-14 ---
+2026-10-31 20:12:00,429 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible']; unmet: ['explanatory']
+2026-10-31 20:12:00,429 INFO etdp.steps:   explanatory: The definition of D5.C5 (Social and people risk) only states that the source does not define it further, so it does not explain the nature of the characteristic with respect to the purpose, even though its application rule names team or people-related weaknesses.
+2026-10-31 20:12:00,429 INFO etdp.steps:   suggestion subjective 'explanatory': Rewrite the definition of D5.C5 to: Risks arising from team or people-related weaknesses, as stated in the application rule of D5, instead of noting that the source does not define it further.
+2026-10-31 20:12:03,401 INFO etdp.steps: exit after Step 14; re-entry before Step 10 (chosen by the LLM: The unmet 'explanatory' condition has not recurred after a prior revision; the history shows no earlier unmet conditions. It can likely be resolved by revising definitions and descriptions of the existing dimensions and characteristics using the objects already classified, without new evidence.)
+2026-10-31 20:12:03,401 INFO etdp.steps: === iteration 3 (r): chosen by the LLM: The unmet 'explanatory' condition has not recurred after a prior revision; the history shows no earlier unmet conditions. It can likely be resolved by revising definitions and descriptions of the existing dimensions and characteristics using the objects already classified, without new evidence. ===
+2026-10-31 20:12:03,401 INFO etdp: --- step 10 ---
+2026-10-31 20:12:05,824 INFO etdp.steps: proposal 1 of 3: 1 operation(s): rename ['D5.C5']
+2026-10-31 20:12:14,746 INFO etdp.classify: classified 6 cells; 0 codes
+2026-10-31 20:12:14,746 INFO etdp.steps: taxonomy: 5 dimensions; 1 operations applied
+2026-10-31 20:12:14,746 INFO etdp.steps:   rename D5.C5: Resolves I2.1 by rewriting the definition of D5.C5 to name team or people-related weaknesses, as the application rule of D5 states, instead of noting that the source does not define it further. Name a
+2026-10-31 20:12:14,762 INFO etdp: --- step 11-12 ---
+2026-10-31 20:12:14,762 INFO etdp.steps: objective conditions unmet: none
+2026-10-31 20:12:14,762 INFO etdp: --- step 13-14 ---
+2026-10-31 20:12:18,580 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-31 20:12:18,588 INFO etdp: --- step 15-16 ---
+2026-10-31 20:12:21,686 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:12:26,393 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:12:31,084 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:12:39,930 INFO etdp.sources.semantic_scholar: Semantic Scholar: 0 results for 'DeFi rekt degen slang' (year=(2014, 2026), open_access_only=True)
+2026-10-31 20:12:40,605 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:12:45,295 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:12:50,024 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:12:59,811 INFO etdp.sources.semantic_scholar: Semantic Scholar: 50 results for 'DeFi rekt' (year=(2014, 2026), open_access_only=True)
+2026-10-31 20:13:10,936 INFO etdp.documents: scholarly: 3 full texts for 'DeFi rekt degen slang'
+2026-10-31 20:13:13,272 INFO etdp.documents: web: 3 pages for 'DeFi rekt degen slang'
+2026-10-31 20:17:13,241 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-31 20:17:34,858 INFO etdp.documents: 124 candidate objects; 10 new objects registered
+2026-10-31 20:18:01,946 INFO etdp.classify: classified 50 cells; 0 codes
+2026-10-31 20:18:30,394 INFO etdp.classify: classified 50 cells; 0 codes
+2026-10-31 20:18:31,010 INFO etdp: --- step 17 ---
+2026-10-31 20:18:33,049 INFO etdp.steps: exit after Step 17; re-entry before Step 10 (chosen by the LLM: The only unmet condition is classifying kappa = 0.5611 (target >= 0.61), which can be addressed by revising definitions, names, or merging/splitting characteristics using the objects already classified. The history shows no earlier unmet conditions and no recurrence after a revision, so new evidence from step 6 is not needed.)
+2026-10-31 20:18:33,049 INFO etdp.steps: === iteration 4 (r): chosen by the LLM: The only unmet condition is classifying kappa = 0.5611 (target >= 0.61), which can be addressed by revising definitions, names, or merging/splitting characteristics using the objects already classified. The history shows no earlier unmet conditions and no recurrence after a revision, so new evidence from step 6 is not needed. ===
+2026-10-31 20:18:33,067 INFO etdp: --- step 10 ---
+2026-10-31 20:18:43,184 INFO etdp.steps: proposal 1 of 3: 2 operation(s): rename ['D3']; rename ['D4']
+2026-10-31 20:18:43,184 INFO etdp.classify: classified 0 cells; 0 codes
+2026-10-31 20:18:43,184 INFO etdp.steps: taxonomy: 5 dimensions; 2 operations applied
+2026-10-31 20:18:43,184 INFO etdp.steps:   rename D3: Kappa of 0.5611 (I3.1) shows that coders disagreed on the register. The definitions of slang and warning overlap, so the application rule now sets an explicit order and cues for each characteristic. T
+2026-10-31 20:18:43,184 INFO etdp.steps:   rename D4: Kappa of 0.5611 (I3.1) indicates disagreement on the channel. The previous rule used 'otherwise' without a clear test for forum discourse, so the rule now names an explicit test for the forum characte
+2026-10-31 20:18:43,200 INFO etdp: --- step 11-12 ---
+2026-10-31 20:18:43,200 INFO etdp.steps: objective conditions unmet: none
+2026-10-31 20:18:43,200 INFO etdp: --- step 13-14 ---
+2026-10-31 20:18:46,479 INFO etdp.steps: subjective conditions met: ['concise', 'robust', 'comprehensive', 'extendible', 'explanatory']; unmet: none
+2026-10-31 20:18:46,479 INFO etdp: --- step 15-16 ---
+2026-10-31 20:18:50,470 WARNING etdp.sources.http: HTTP 429 (rate limit) from https://api.semanticscholar.org/graph/v1/paper/search; waiting before retrying
+2026-10-31 20:18:55,327 INFO etdp.sources.semantic_scholar: Semantic Scholar: 0 results for 'DeFi bagholder ponzi slang' (year=(2014, 2026), open_access_only=True)
+2026-10-31 20:18:57,076 INFO etdp.sources.semantic_scholar: Semantic Scholar: 50 results for 'DeFi bagholder' (year=(2014, 2026), open_access_only=True)
+2026-10-31 20:19:28,117 INFO etdp.documents: scholarly: 3 full texts for 'DeFi bagholder ponzi slang'
+2026-10-31 20:19:29,963 INFO etdp.documents: web: 3 pages for 'DeFi bagholder ponzi slang'
+2026-10-31 20:22:15,664 INFO etdp.documents: llm: 2 descriptions for 10 objects
+2026-10-31 20:22:19,219 INFO etdp.documents: 39 candidate objects; 10 new objects registered
+2026-10-31 20:22:47,565 INFO etdp.classify: classified 50 cells; 0 codes
+2026-10-31 20:23:15,503 INFO etdp.classify: classified 50 cells; 0 codes
+2026-10-31 20:23:15,517 INFO etdp: --- step 17 ---
+2026-10-31 20:23:15,517 INFO etdp: --- step 18 ---
+2026-10-31 20:23:15,545 INFO etdp: run 2026-10-31T20-01-03 finished: completed 

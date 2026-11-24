@@ -1,0 +1,479 @@
+{
+  "run_id": "2026-10-31T20-01-03",
+  "status": "completed",
+  "message": "",
+  "input": {
+    "observed_phenomenon": "Decentralized finance (DeFi)",
+    "target_user_groups": [
+      "Consumers",
+      "investors",
+      "Service providers",
+      "Regulators"
+    ],
+    "intended_purposes": [
+      "Represent sociolinguistic patterns and relate them to technical concepts and risk categories",
+      "Semantically mediate the transition from public discourse on DeFi to informational consumer protection (traceability)",
+      "Provide insights to improve consumer protection and strategic decision-making"
+    ],
+    "purpose_type": "identification_and_structuring",
+    "purpose_nature": "descriptive",
+    "domain_of_objects": "Jargon and slang used by the DeFi community in technical documentation, forums and social media to warn about, accuse of or describe risks and harms that may affect consumers, excluding names of specific protocols, tokens, companies or people",
+    "evaluation_goals": [
+      {
+        "goal": "describing",
+        "targets": {}
+      },
+      {
+        "goal": "classifying",
+        "targets": {}
+      }
+    ],
+    "perspectives": [
+      "Consumer risk",
+      "Community discourse"
+    ],
+    "meta_characteristic": null,
+    "seed_keywords": [
+      "decentralized finance",
+      "DeFi",
+      "alert",
+      "warning",
+      "risk",
+      "harm",
+      "vulnerability",
+      "misconduct",
+      "consumer",
+      "asymmetry",
+      "fraud",
+      "scam",
+      "loss",
+      "failure",
+      "liquidity",
+      "attack",
+      "drain",
+      "crisis",
+      "governance",
+      "malicious",
+      "white paper"
+    ],
+    "language": "en",
+    "year_range": [
+      2014,
+      2026
+    ]
+  },
+  "meta_characteristic": "The taxonomy views DeFi jargon and slang as sociolinguistic signals of community discourse about consumer risks and harms, linking them to technical concepts and risk categories so that they can be traced to informational consumer protection.",
+  "iterations": 4,
+  "documents_read": 36,
+  "objects": {
+    "building": 50,
+    "evaluation": 10
+  },
+  "perspectives": {
+    "Consumer risk": [
+      "D1",
+      "D2",
+      "D5"
+    ],
+    "Community discourse": [
+      "D3",
+      "D4"
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "Harm mechanism",
+      "definition": "The way the object's definitions say consumers lose assets or value, as a sociolinguistic signal of community discourse about consumer risk.",
+      "application_rule": "Choose the single harm mechanism that the object's definitions name as the primary way consumers are harmed. If several apply, use this precedence: forced loss of pledged or leveraged assets, then manipulated execution, prices or data, then theft, fraud or misleading claims, then governance or treasury control loss, then locked, staked or penalized funds, then value loss from market movement or fees, and otherwise descriptive term or safeguard.",
+      "perspective": "Consumer risk",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D1.C1",
+          "name": "Forced loss of pledged or leveraged assets",
+          "definition": "Consumers lose assets because pledged collateral is seized or liquidated when a position falls below its threshold, including cascades.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D1.C2",
+          "name": "Manipulated execution, prices or data",
+          "definition": "Consumers receive worse execution, prices or data because transactions, prices, volume or oracle inputs are manipulated or reordered.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 7
+        },
+        {
+          "id": "D1.C3",
+          "name": "Theft, fraud or misleading claims",
+          "definition": "Consumers lose funds or access through fraud, scams, exploits, phishing, coercion or exaggerated claims.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 14
+        },
+        {
+          "id": "D1.C4",
+          "name": "Governance or treasury control loss",
+          "definition": "Consumers are harmed by concentrated control, governance capture or draining of DAO-controlled funds.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D1.C5",
+          "name": "Locked, staked or penalized funds",
+          "definition": "Consumers cannot quickly access or lose part of funds that are locked, staked or subject to penalties such as slashing.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 4
+        },
+        {
+          "id": "D1.C6",
+          "name": "Value loss from market movement or fees",
+          "definition": "Consumers lose value through price divergence, depegging, sell pressure, hype-driven buying, fees or holding through declines.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 8
+        },
+        {
+          "id": "D1.C7",
+          "name": "Descriptive term or safeguard without harm mechanism",
+          "definition": "The term describes a technical concept, metric or protective mechanism whose definitions name no harm mechanism.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 9
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Loss timing",
+      "definition": "Whether the consumer loss described by the object occurs as a sudden event, as a gradual or structural exposure, or is not time-bound.",
+      "application_rule": "Use sudden event-triggered loss when the object's definitions describe a discrete trigger event (an attack, a withdrawal, a breach, a sale or a shock). Use gradual or structural exposure when they describe a continuing position, lock, schedule, accumulation or ongoing condition. Use not time-bound term or safeguard when they describe a concept, metric, claim or protection with no loss timing.",
+      "perspective": "Consumer risk",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D2.C1",
+          "name": "Sudden event-triggered loss",
+          "definition": "Consumer loss follows a discrete trigger event such as an exploit, liquidation, withdrawal, depeg or scam step.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 23
+        },
+        {
+          "id": "D2.C2",
+          "name": "Gradual or structural exposure",
+          "definition": "Consumer exposure accumulates over time through a continuing position, lock, schedule, fee or market condition.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 16
+        },
+        {
+          "id": "D2.C3",
+          "name": "Not time-bound term or safeguard",
+          "definition": "The term describes a concept, metric, claim or protection without a loss timing.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 11
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Discourse register",
+      "definition": "The linguistic register in which the community uses the jargon or slang term, assigned by the first matching criterion of the application rule.",
+      "application_rule": "Apply in order and stop at the first match. (1) Slang or colloquial term when the definitions describe the term as informal, metaphorical or coined by the community, even if it also warns. (2) Otherwise warning or accusation of risk when the definitions say the community uses the term to warn about, accuse or name a misleading claim or consumer risk. (3) Otherwise technical description when the definitions describe a concept, mechanism or metric in technical documentation without informal, warning or accusatory framing.",
+      "perspective": "Community discourse",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D3.C1",
+          "name": "Slang or colloquial term",
+          "definition": "An informal, metaphorical or coined community term used to describe risks or harms.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 9
+        },
+        {
+          "id": "D3.C2",
+          "name": "Warning or accusation of risk",
+          "definition": "A term used by the community to warn about or accuse others of a consumer risk or misleading claim.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 18
+        },
+        {
+          "id": "D3.C3",
+          "name": "Technical description",
+          "definition": "A term used in technical documentation to describe a concept, mechanism or metric.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 23
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Discourse channel",
+      "definition": "The channel in which the community discourse about the object takes place.",
+      "application_rule": "Apply the first criterion: use forum or social media discourse only when the definitions explicitly say that users, communities or forums discuss, warn about or originate the term. Otherwise use technical documentation, including terms defined or analysed in documentation even when they are also mentioned informally.",
+      "perspective": "Community discourse",
+      "origin": "empirical",
+      "characteristics": [
+        {
+          "id": "D4.C1",
+          "name": "Forum or social media discourse",
+          "definition": "The term is discussed, warned about or originated by DeFi users in forums or social media.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 13
+        },
+        {
+          "id": "D4.C2",
+          "name": "Technical documentation",
+          "definition": "The term is used in technical documentation or analysis of DeFi mechanisms.",
+          "negation": false,
+          "origin": "empirical",
+          "objects": 37
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Top-level DeFi risk category",
+      "definition": "The top-level risk category of DeFi risk that the object's definitions link the term to, as a technical concept that the community discourse signals about consumer risk.",
+      "application_rule": "Choose the category whose risk source the object's definitions name as primary: smart contract risk for code logic errors or exploits in smart contracts; blockchain infrastructure risk for the underlying chain (forks, congestion, validation, energy); financial risk for market price changes or macroeconomic factors; operational risk for cyber security, admin keys, human factors or faulty procedures; societal risk for regulatory scrutiny, political change or societal views; social and people risk where the object concerns team or people-related weaknesses. If the definitions name no such source, choose the negation characteristic.",
+      "perspective": "Consumer risk",
+      "origin": "conceptual",
+      "characteristics": [
+        {
+          "id": "D5.C1",
+          "name": "Smart contract risk",
+          "definition": "Risks arising from implementation errors, vulnerabilities or logic errors in smart contract code developed by the protocols, including economic design risk.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 10
+        },
+        {
+          "id": "D5.C2",
+          "name": "Operational risk",
+          "definition": "Risks focused on cyber security operational risks, including deficient cybersecurity controls, faulty operational procedures, exploitation of human factors and system vulnerabilities.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 7
+        },
+        {
+          "id": "D5.C3",
+          "name": "Blockchain infrastructure risk",
+          "definition": "Risks concerning negative externalities, inefficiencies and malfunctions of the lower blockchain layer on which DeFi applications are built.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 4
+        },
+        {
+          "id": "D5.C4",
+          "name": "Financial risk",
+          "definition": "Risks associated with market price changes and macroeconomic factors affecting the operations or viability of a DeFi protocol, including market and macroeconomic risk.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 11
+        },
+        {
+          "id": "D5.C5",
+          "name": "Social and people risk",
+          "definition": "Risks arising from team or people-related weaknesses, where the object's definitions concern such weaknesses, as stated in the application rule of D5.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 3
+        },
+        {
+          "id": "D5.C6",
+          "name": "Societal risk",
+          "definition": "Risks arising from regulatory scrutiny, political changes in the environment and societal views negatively affecting adaptation, including regulatory, political and adaptation risk.",
+          "negation": false,
+          "origin": "conceptual",
+          "objects": 0
+        },
+        {
+          "id": "D5.C7",
+          "name": "No top-level risk category",
+          "definition": "Stated absence: the object's definitions link the term to no top-level DeFi risk category, as a descriptive term or safeguard.",
+          "negation": true,
+          "origin": "conceptual",
+          "objects": 8
+        }
+      ]
+    }
+  ],
+  "objective_conditions": {
+    "holds": {
+      "O1": true,
+      "O2": true,
+      "O3": true,
+      "O5": true,
+      "O6": true,
+      "O7": true,
+      "O8": true,
+      "O10": true
+    },
+    "details": {
+      "O1": "50 objects, 5 dimensions; 0 objects not classified in every dimension",
+      "O2": "objects are registered once and never merged or split",
+      "O3": "0 characteristics without objects; conceptual or negation, exempt: D5.C6 'Societal risk'",
+      "O5": "not checked: only the e iterations after the first are checked",
+      "O6": "no duplicate dimension",
+      "O7": "no duplicate characteristic within a dimension",
+      "O8": "no characteristic repeated across dimensions",
+      "O9": "not checked; reported: 3 misfits",
+      "O10": "structure rules hold"
+    }
+  },
+  "subjective_conditions": {
+    "concise": {
+      "passed": true,
+      "justification": "The taxonomy has five dimensions, each tied to the stated purpose of linking sociolinguistic patterns to technical concepts, risk categories and consumer protection, and none is redundant."
+    },
+    "robust": {
+      "passed": true,
+      "justification": "Each dimension has mutually exclusive characteristics with explicit application rules and precedence, so objects can be assigned consistently. The zero-object societal risk characteristic reflects the evidence and is not a differentiation failure."
+    },
+    "comprehensive": {
+      "passed": true,
+      "justification": "Both perspectives are represented, and the dimensions needed for the purpose (harm mechanism, loss timing, discourse register, discourse channel, risk category) are present. Objects without information on risk category reflect the documents rather than a gap in the taxonomy."
+    },
+    "extendible": {
+      "passed": true,
+      "justification": "Dimensions and characteristics are defined at a level where new harm mechanisms or risk sources can be added without restructuring the perspectives or dimensions."
+    },
+    "explanatory": {
+      "passed": true,
+      "justification": "The definitions state the nature of each characteristic with respect to consumer risk and community discourse, and the rewritten definition of D5.C5 names team or people-related weaknesses clearly."
+    }
+  },
+  "evaluation_plan": [
+    {
+      "goal": "describing",
+      "users_aim": "describe a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as a basis to describe a certain phenomenon",
+      "method": "new objects classified in every dimension",
+      "criteria": [
+        {
+          "measure": "informed_share",
+          "label": "share of cells of new objects with a characteristic",
+          "comparator": ">=",
+          "target": 0.5,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        },
+        {
+          "measure": "misfit_share",
+          "label": "share of new objects with a misfit in some dimension",
+          "comparator": "<=",
+          "target": 0.3,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        }
+      ]
+    },
+    {
+      "goal": "classifying",
+      "users_aim": "classify objects that represent a certain phenomenon",
+      "designers_provide": "characteristics and dimensions that serve as scheme to classify one particular object",
+      "method": "new objects classified twice, independently",
+      "criteria": [
+        {
+          "measure": "kappa",
+          "label": "mean Cohen's kappa between the two classifications",
+          "comparator": ">=",
+          "target": 0.61,
+          "population": "new",
+          "remedy": "10",
+          "basis": "substantial agreement (Landis & Koch, 1977)"
+        },
+        {
+          "measure": "misfit_share",
+          "label": "share of new objects with a misfit in some dimension",
+          "comparator": "<=",
+          "target": 0.3,
+          "population": "new",
+          "remedy": "6",
+          "basis": ""
+        }
+      ]
+    }
+  ],
+  "evaluation": {
+    "new_objects": 10,
+    "all_objects": 60,
+    "kappa_per_dimension": {
+      "D1": 0.8529,
+      "D2": 0.8438,
+      "D3": 1.0,
+      "D4": 0.5833,
+      "D5": 0.7619
+    },
+    "kappa": 0.8084,
+    "misfit_share": 0.0,
+    "informed_share": 1.0,
+    "distinct_profiles": 0.55,
+    "discriminating_dimensions": 1.0,
+    "cluster_silhouette": 0.3497,
+    "new_object_ids": [
+      "O51",
+      "O52",
+      "O53",
+      "O54",
+      "O55",
+      "O56",
+      "O57",
+      "O58",
+      "O59",
+      "O60"
+    ],
+    "results": [
+      {
+        "goal": "describing",
+        "measure": "informed_share",
+        "value": 1.0,
+        "target": 0.5,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "6"
+      },
+      {
+        "goal": "describing",
+        "measure": "misfit_share",
+        "value": 0.0,
+        "target": 0.3,
+        "comparator": "<=",
+        "met": true,
+        "remedy": "6"
+      },
+      {
+        "goal": "classifying",
+        "measure": "kappa",
+        "value": 0.8084,
+        "target": 0.61,
+        "comparator": ">=",
+        "met": true,
+        "remedy": "10"
+      },
+      {
+        "goal": "classifying",
+        "measure": "misfit_share",
+        "value": 0.0,
+        "target": 0.3,
+        "comparator": "<=",
+        "met": true,
+        "remedy": "6"
+      }
+    ]
+  },
+  "open_issues": [],
+  "tokens_used": 1263505
+}
