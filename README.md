@@ -40,6 +40,12 @@ Repositório de artefatos, taxonomias, _prompts_ e materiais suplementares do ar
 | [`config.json`](config.json) | Parâmetros da execução: modelo de linguagem, embeddings, provedores de busca acadêmica e web, tamanho de *chunks* de documentos, parâmetros do método (mínimos de dimensões e características, tamanho de lote de classificação, abordagem simbólica e verificação de operações), metas de avaliação e limites (máximo de 15 iterações). O e-mail de contato é um *placeholder* (`you@example.com`). |
 | [`state.json`](state.json) | Estado completo e final da execução (*checkpoint*): entrada, meta-característica, taxonomia, todos os objetos, registro de documentos, iterações, log de operações, avaliação, contadores internos e consumo de tokens. Contém em um único arquivo tudo o que está nos demais JSON e serve para retomar ou reproduzir a execução. |
 
+### Exemplos de aplicação
+
+| Arquivo | Conteúdo |
+|---|---|
+| [`Prompts.txt`](Prompts.txt) | _Prompt_ para Anthropic Claude Opus 5.5 ou outra ferramenta de inteligência artificial generativa visando exemplificar o uso da taxonomia DeFiLang. Anexar arquivos [`taxonomy.json`](taxonomy.json) e [`objects.json`](objects.json). |
+
 ---
 
 ## Uso rápido
